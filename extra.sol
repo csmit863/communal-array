@@ -9,6 +9,9 @@ contract ChallengeCommunalArray {
     // members can call some function to append a number to an array
     // anyone can access the array
     // admins can promote members
+
+    // Smart Contract Address: 0x1573b2C865df3b8Bd1d43B8c693E27Ecc0BE9792
+    // Network: Sepolia
     
     mapping(address => bool) public members;
     mapping(address => bool) public admins; 
